@@ -1,0 +1,149 @@
+.hero_text_content h1 {
+    color: rgb(54, 55, 56);
+    font-family: "Exo 2";
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 610px;
+}
+
+.hero_text_content p {
+    color: rgb(107, 107, 108);
+    font-family: " PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 525px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hero_text_content a {
+    color: rgb(54, 55, 56);
+    font-family: " PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.hero_text_content a:hover{
+    text-decoration: underline yellow;
+}
+
+.flex_element{
+    display: flex;
+    align-items: center;    
+    margin-top: 44px;
+}
+
+@media ( max-width:999px) {
+     .flex_element{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+}
+
+@media ( max-width:799px) {
+
+    .hero_imgs_wrapper img{
+            width: 500px;
+            height: 500px;
+            margin-top: 20px;
+    }
+
+    .hero_text_content h1{
+        max-width: 500px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .hero_text_content p{
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .hero_text_content a{
+        text-align: center;
+    }
+}
+
+@media ( max-width:699px) {
+
+    .hero_imgs_wrapper img{
+            width: 450px;
+            height: 450px;
+            margin-top: 20px;
+    }
+
+    .hero_text_content h1{
+        max-width: 450px;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .hero_text_content p{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .hero_text_content a{
+        text-align: center;
+    }
+}
+
+@media ( max-width:450px) {
+
+    .hero_imgs_wrapper img{
+            width: 400px;
+            height: 400px;
+            margin-top: 20px;
+    }
+
+    .hero_text_content h1{
+        max-width: 450px;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .hero_text_content p{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .hero_text_content a{
+        text-align: center;
+    }
+}
+
+@media ( max-width:390px) {
+
+    .hero_imgs_wrapper img{
+            width: 350px;
+            height: 350px;
+            margin-top: 20px;
+    }
+
+    .hero_text_content h1{
+        max-width: 450px;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .hero_text_content p{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .hero_text_content a{
+        text-align: center;
+    }
+}

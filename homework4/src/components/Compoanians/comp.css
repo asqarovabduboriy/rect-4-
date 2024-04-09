@@ -1,0 +1,66 @@
+.comp_title {
+    color: rgb(54, 55, 56);
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.comp_card {
+    width: 184px;
+    height: 183px;
+}
+
+
+.comp_card h5 {
+    color: rgb(54, 55, 56);
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.comp_card p {
+    color: rgb(107, 107, 108);
+    font-family: " PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.flex_comp{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 75px;
+   justify-content: space-between;
+   margin-top: 90px;
+}
+
+.imgs_wrapper_comp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+@media ( max-width:999px) {
+  
+    .flex_comp{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .comp_title{
+        text-align: center;
+    }
+   
+   }

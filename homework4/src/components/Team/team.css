@@ -1,0 +1,146 @@
+.team_title {
+    color: rgb(54, 55, 56);
+    font-family: " Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 130px;
+}
+
+.card_team {
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding: 32px 83px 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.rektangle {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    background: rgb(11, 117, 114);
+    transform: rotate(90.00deg);
+    top: 80px;
+    left: -80px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.card_team_text_content h2 {
+    color: rgb(54, 55, 56);
+    font-family: " Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card_team_text_content p {
+    color: rgb(107, 107, 108);
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.card_team_text_content p:hover {
+    text-decoration: underline yellow;
+}
+
+.icon_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    margin-top: 35px;
+    color: rgb(191, 191, 199);
+}
+
+.flex_elemtn_team {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
+
+.img_team {
+    margin-top: 150px;
+    margin-bottom: 165px;
+}
+
+@media (max-width:999px) {
+    .flex_elemtn_team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card_team {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team_title {
+        text-align: center;
+    }
+
+    .img_team {
+        width: 850px;
+        height: 600px;
+    }
+}
+
+@media (max-width:790px) {
+    .flex_elemtn_team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card_team {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team_title {
+        text-align: center;
+    }
+
+    .img_team {
+        width: 650px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .img_team {
+        width: 550px;
+    }
+}
+
+@media (max-width:550px) {
+
+    .img_team {
+        width: 500px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .img_team {
+        width: 350px;
+        height: 350px;
+    }
+}
+

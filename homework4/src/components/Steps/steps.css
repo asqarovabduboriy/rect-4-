@@ -1,0 +1,82 @@
+.steps_title {
+    color: rgb(54, 55, 56);
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 67px;
+}
+
+.steps_card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 32px 96px;
+}
+
+.steps_acrd_text_conten h4 {
+    color: rgb(54, 55, 56);
+    font-family: " Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.steps_acrd_text_conten h4:hover {
+    text-decoration: underline yellow;
+}
+
+.steps_acrd_text_conten p {
+    color: rgb(107, 107, 108);
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 568px;
+    margin-top: 25px;
+}
+
+.imgs_wrapper_steps img {
+    width: 331px;
+    border-radius: 4px;
+}
+
+.steps_flex_element {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+@media (max-width:999px) {
+    .steps_flex_element {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .steps_card {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps_card img{
+        width: 300px;
+    }
+    .steps_title {
+        text-align: center;
+        
+    }
+
+}

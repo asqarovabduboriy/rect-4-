@@ -1,0 +1,93 @@
+footer {
+    background: rgb(11, 117, 114);
+    padding-top: 59px;
+    padding-bottom: 70px;
+}
+
+.footerlogo h1 {
+    color: rgb(255, 255, 255);
+    font-family: " Familjen Grotesk";
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 16%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.flex_footer_elemnt {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+
+li {
+    color: rgb(255, 255, 255);
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 16%;
+    text-align: left;
+    text-transform: capitalize;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.icon_footer {
+    font-size: 27px;
+    color: white;
+    background-color: transparent;
+}
+
+.adress_conten {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.icon_wrapper_footer {
+    display: flex;
+    gap: 15px;
+}
+
+.adress_conten p {
+    color: rgb(255, 255, 255);
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.adress_conten button {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 150, 25);
+    background: rgb(255, 150, 25);
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 270px;
+    padding: 10px;
+    margin-top: 32px;
+}
+
+@media (max-width:999px) {
+
+  .flex_footer_elemnt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
